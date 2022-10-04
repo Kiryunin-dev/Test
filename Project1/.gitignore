@@ -25,7 +25,8 @@ obj/
 Obj/
 
 # Visual Studio 2015 cache/options directory
-.vs/
+/.vs/
+.Project1/vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -64,6 +65,10 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+
+*.vsidx
+*.v2
+
 
 # Chutzpah Test files
 _Chutzpah*
@@ -229,5 +234,3 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-
-*.vsidx
