@@ -7,7 +7,7 @@ namespace Project1.Quartz
     {
         private readonly IJobFactory jobFactory;
         private readonly ISchedulerFactory schedulerFactory;
-        private readonly IEnumerable<>
+        private readonly IEnumerable<JobShedule> jobShedules;
 
 
         public Task StartAsync(CancellationToken cancellationToken)
